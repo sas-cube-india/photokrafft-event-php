@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photokrafft Event Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #fff7ed 0%, #fdf2f8 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            min-height: 500px;
+        }
+
+        .form-wrapper {
+            display: flex;
+            flex-direction: column-reverse;
+            min-height: 500px;
+        }
+
+        @media (min-width: 1024px) {
+            .form-wrapper {
+                flex-direction: row;
+            }
+        }
+
+        .image-section {
+            position: relative;
+            flex: 1;
+            min-height: 300px;
+            background-image: url('/images/maternity-workshop.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .image-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
+        }
+
+        .image-content {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            color: white;
+            z-index: 10;
+        }
+
+        .image-content h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .image-content p {
+            font-size: 14px;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        .form-section {
+            flex: 1;
+            background: #5bb5a2;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (min-width: 1024px) {
+            .form-section {
+                padding: 3rem;
+            }
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-header h1 {
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .form-header p {
+            color: #fff;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+        .form-input {
+            width: 100%;
+            background: white;
+            border: none;
+			border-radius: 10px;
+            border-bottom: 2px solid #4b5563;
+            color: white;
+            font-size: 14px;
+            padding: 0.75rem 10px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input::placeholder {
+            color: #9ca3af;
+        }
+
+        .form-input:focus {
+            border-bottom-color: #fb923c;
+        }
+
+        .form-input.error {
+            border-bottom-color: #ef4444;
+        }
+
+        .error-message {
+            color: #ef4444;
+            font-size: 11px;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .submit-button {
+            width: 100%;
+            background: #fb923c;
+            color: #1f2937;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .submit-button:hover {
+            background: #f97316;
+            transform: scale(1.02);
+        }
+
+        .submit-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-footer {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .form-footer p {
+            color: #9ca3af;
+            font-size: 11px;
+        }
+
+        .success-message {
+            background: #10b981;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 1rem;
+            display: none;
+        }
+
+        .loading {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid transparent;
+            border-top: 2px solid currentColor;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 1023px) {
+            .container {
+                border-radius: 16px;
+                margin: 0.5rem;
+            }
+            
+            .image-section {
+                min-height: 250px;
+            }
+            
+            .image-content {
+                bottom: 1rem;
+                left: 1rem;
+                right: 1rem;
+            }
+            
+            .form-section {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .form-header h1 {
+                font-size: 14px;
+            }
+            
+            .form-header p {
+                font-size: 11px;
+            }
+            
+            .form-input {
+                font-size: 13px;
+            }
+            
+            .submit-button {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <!-- Image Section -->
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="image-content">
+                    <h3>We are celebrating you at the</h3>
+                    <p>Maternity & Newborn Photography Summit !!</p>
+                </div>
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-section">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h1>Register with Photokrafft</h1>
+                        <p>Join us at Special MNPS Summit 2025 & Get $200* in PHOTOKRAFFT Coupons - Just for attending</p>
+                    </div>
+
+                    <div class="success-message" id="successMessage">
+                        Registration successful! Thank you for registering with Photokrafft.
+                    </div>
+
+                    <form class="form" id="registrationForm">
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                class="form-input" 
+                                id="fullName" 
+                                name="fullName" 
+                                placeholder="Your full name" 
+                                required
+                            >
+                            <div class="error-message" id="fullNameError">Please enter your full name</div>
+                        </div>
+
+                        <div class="input-group">
+                            <input 
+                                type="email" 
+                                class="form-input" 
+                                id="email" 
+                                name="email" 
+                                placeholder="Your email address" 
+                                required
+                            >
+                            <div class="error-message" id="emailError">Please enter a valid email address</div>
+                        </div>
+
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                class="form-input" 
+                                id="eventName" 
+                                name="eventName" 
+                                placeholder="Event Name ? Ex, MNPS 2025"
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                class="form-input" 
+                                id="workshopName" 
+                                name="workshopName" 
+                                placeholder="Workshop name"
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                class="form-input" 
+                                id="investment" 
+                                name="investment" 
+                                placeholder="Investment amount ( Ticket + Workshop )"
+                            >
+                        </div>
+
+                        <button type="submit" class="submit-button" id="submitButton">
+                            Register Now
+                        </button>
+
+                        <div class="form-footer">
+                            <p>Secure your spot at the premier photography summit</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('registrationForm');
+            const submitButton = document.getElementById('submitButton');
+            const successMessage = document.getElementById('successMessage');
+
+            // Form validation
+            function validateEmail(email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+
+            function showError(fieldId, message) {
+                const field = document.getElementById(fieldId);
+                const errorElement = document.getElementById(fieldId + 'Error');
+                
+                field.classList.add('error');
+                errorElement.textContent = message;
+                errorElement.style.display = 'block';
+            }
+
+            function hideError(fieldId) {
+                const field = document.getElementById(fieldId);
+                const errorElement = document.getElementById(fieldId + 'Error');
+                
+                field.classList.remove('error');
+                errorElement.style.display = 'none';
+            }
+
+            function validateForm() {
+                let isValid = true;
+                
+                // Reset all errors
+                hideError('fullName');
+                hideError('email');
+
+                // Validate full name
+                const fullName = document.getElementById('fullName').value.trim();
+                if (!fullName) {
+                    showError('fullName', 'Please enter your full name');
+                    isValid = false;
+                }
+
+                // Validate email
+                const email = document.getElementById('email').value.trim();
+                if (!email) {
+                    showError('email', 'Please enter your email address');
+                    isValid = false;
+                } else if (!validateEmail(email)) {
+                    showError('email', 'Please enter a valid email address');
+                    isValid = false;
+                }
+
+                return isValid;
+            }
+
+            // Real-time validation
+            document.getElementById('fullName').addEventListener('input', function() {
+                if (this.value.trim()) {
+                    hideError('fullName');
+                }
+            });
+
+            document.getElementById('email').addEventListener('input', function() {
+                if (this.value.trim() && validateEmail(this.value.trim())) {
+                    hideError('email');
+                }
+            });
+
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                if (!validateForm()) {
+                    return;
+                }
+
+                // Show loading state
+                submitButton.disabled = true;
+                submitButton.innerHTML = `
+                    <span class="loading">
+                        <span class="spinner"></span>
+                        Registering...
+                    </span>
+                `;
+
+                // Simulate form submission (replace with actual submission logic)
+                setTimeout(function() {
+                    // Show success message
+                    successMessage.style.display = 'block';
+                    
+                    // Reset form
+                    form.reset();
+                    
+                    // Reset button
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = 'Register Now';
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(function() {
+                        successMessage.style.display = 'none';
+                    }, 5000);
+                    
+                }, 2000);
+            });
+
+            // Add smooth focus transitions
+            const inputs = document.querySelectorAll('.form-input');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.style.transform = 'translateY(-2px)';
+                });
+                
+                input.addEventListener('blur', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
