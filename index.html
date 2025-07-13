@@ -447,24 +447,49 @@
                     </span>
                 `;
 
-                // Simulate form submission (replace with actual submission logic)
-                setTimeout(function() {
-                    // Show success message
-                    successMessage.style.display = 'block';
-                    
-                    // Reset form
-                    form.reset();
+                // Get form data
+                const formData = new FormData(form);
+
+                // Submit form to PHP backend
+                fetch('process_form.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Show success message
+                        successMessage.style.display = 'block';
+                        successMessage.textContent = data.message;
+                        
+                        // Reset form
+                        form.reset();
+                        
+                        // Reset button
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = 'Register Now';
+                        
+                        // Hide success message after 5 seconds
+                        setTimeout(function() {
+                            successMessage.style.display = 'none';
+                        }, 5000);
+                    } else {
+                        // Show error message
+                        alert('Error: ' + data.message);
+                        
+                        // Reset button
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = 'Register Now';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred. Please try again.');
                     
                     // Reset button
                     submitButton.disabled = false;
                     submitButton.innerHTML = 'Register Now';
-                    
-                    // Hide success message after 5 seconds
-                    setTimeout(function() {
-                        successMessage.style.display = 'none';
-                    }, 5000);
-                    
-                }, 2000);
+                });
             });
 
             // Add smooth focus transitions
