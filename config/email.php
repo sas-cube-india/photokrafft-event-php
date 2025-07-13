@@ -1,9 +1,9 @@
 <?php
 // Email configuration
-define('SMTP_HOST', 'smtp.gmail.com');
-define('SMTP_PORT', 587);
-define('SMTP_USERNAME', 'your-email@gmail.com'); // Replace with your email
-define('SMTP_PASSWORD', 'your-app-password'); // Replace with your app password
+define('SMTP_HOST', 'smtp.zoho.com');
+define('SMTP_PORT', 465);
+define('SMTP_USERNAME', 'noreply@photokrafftalbums.com');
+define('SMTP_PASSWORD', 'PrintUrAlbums@747');
 define('ADMIN_EMAIL', 'parth@photokrafft.com');
 
 // Email sending function using PHPMailer

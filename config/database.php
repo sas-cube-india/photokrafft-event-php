@@ -1,8 +1,8 @@
 <?php
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', '127.0.0.1');
+define('DB_USER', 'photokrafft@master_admin');
+define('DB_PASS', 'C%WSN2:M3qFn?rGRk+KFd59Cx');
 define('DB_NAME', 'photokrafft_forms');
 
 // Create database connection
