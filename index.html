@@ -14,7 +14,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #fff7ed 0%, #fdf2f8 100%);
+            background: #e5e5e5;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -26,11 +26,22 @@
             max-width: 1200px;
             width: 100%;
             background: white;
-            border-radius: 24px;
+            border-radius: 6px;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
             overflow: hidden;
             min-height: 500px;
         }
+
+	.form-logo { 
+	   text-align: center; 
+	   margin-bottom: 1.5rem;
+	}
+
+	.form-logo img { 
+	   max-width: 220px; 
+	   height: auto;
+    	}
+
 
         .form-wrapper {
             display: flex;
@@ -68,21 +79,21 @@
         }
 
         .image-content h3 {
-            font-size: 16px;
+            font-size: 26px;
             font-weight: 700;
             margin-bottom: 0.5rem;
             line-height: 1.4;
         }
 
         .image-content p {
-            font-size: 14px;
+            font-size: 20px;
             opacity: 0.9;
             line-height: 1.4;
         }
 
         .form-section {
             flex: 1;
-            background: #5bb5a2;
+            background: #fff;
             padding: 2rem;
             display: flex;
             align-items: center;
@@ -106,15 +117,15 @@
         }
 
         .form-header h1 {
-            font-size: 16px;
+            font-size: 22px;
             font-weight: 700;
-            color: white;
+            color: #000;
             margin-bottom: 0.5rem;
             line-height: 1.3;
         }
 
         .form-header p {
-            color: #fff;
+            color: #000;
             font-size: 12px;
             line-height: 1.4;
         }
@@ -133,9 +144,9 @@
             width: 100%;
             background: white;
             border: none;
-			border-radius: 10px;
+	    border-radius: 10px;
             border-bottom: 2px solid #4b5563;
-            color: white;
+            color: #000;
             font-size: 14px;
             padding: 0.75rem 10px;
             outline: none;
@@ -163,8 +174,8 @@
 
         .submit-button {
             width: 100%;
-            background: #fb923c;
-            color: #1f2937;
+            background: #5bb5a2;
+            color: #fff;
             font-weight: 600;
             font-size: 14px;
             padding: 1rem;
@@ -176,7 +187,7 @@
         }
 
         .submit-button:hover {
-            background: #f97316;
+            background: #408576;
             transform: scale(1.02);
         }
 
@@ -252,11 +263,11 @@
 
         @media (max-width: 640px) {
             .form-header h1 {
-                font-size: 14px;
+                font-size: 18px;
             }
             
             .form-header p {
-                font-size: 11px;
+                font-size: 13px;
             }
             
             .form-input {
@@ -265,6 +276,10 @@
             
             .submit-button {
                 font-size: 13px;
+            }
+
+           .form-logo img {
+                max-width: 210px;
             }
         }
     </style>
@@ -284,6 +299,9 @@
             <!-- Form Section -->
             <div class="form-section">
                 <div class="form-container">
+                    <div class="form-logo">
+    <img src="https://photokrafft.com/assets/img/logo.png" alt="Photokrafft Logo">
+			</div>
                     <div class="form-header">
                         <h1>Register with Photokrafft</h1>
                         <p>Join us at Special MNPS Summit 2025 & Get $200* in PHOTOKRAFFT Coupons - Just for attending</p>
@@ -317,7 +335,9 @@
                             >
                             <div class="error-message" id="emailError">Please enter a valid email address</div>
                         </div>
-
+ 			<div class="input-group">
+		    <input type="tel" class="form-input" id="phone" name="phone" placeholder="Your phone number" required>
+		    <div class="error-message" id="phoneError">Please enter a valid phone number</div> </div>
                         <div class="input-group">
                             <input 
                                 type="text" 
@@ -396,6 +416,7 @@
                 // Reset all errors
                 hideError('fullName');
                 hideError('email');
+                hideError('phone');
 
                 // Validate full name
                 const fullName = document.getElementById('fullName').value.trim();
@@ -414,6 +435,18 @@
                     isValid = false;
                 }
 
+
+                // Validate phone
+   		 const phone = document.getElementById('phone').value.trim();
+    		 const phoneRegex = /^[0-9]{7,15}$/;
+   		 if (!phone) {
+       		 showError('phone', 'Please enter your phone number');
+       		 isValid = false;
+  	 	 } else if (!phoneRegex.test(phone)) {
+       		 showError('phone', 'Please enter a valid phone number');
+       		 isValid = false;
+   		 }
+                   
                 return isValid;
             }
 
@@ -429,6 +462,13 @@
                     hideError('email');
                 }
             });
+
+	    document.getElementById('phone').addEventListener('input', function() {
+   		 const phoneRegex = /^[0-9]{7,15}$/;
+       		 if (this.value.trim() && phoneRegex.test(this.value.trim())) {
+       		 hideError('phone');
+   		 }
+		 });
 
             // Form submission
             form.addEventListener('submit', function(e) {

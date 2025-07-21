@@ -1,0 +1,3250 @@
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 14, 2025 12:32:56 PM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<parth@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <parth@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 14 Jul 2025 19:32:56 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <parth@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <hMT2jOXf2fxkwsJvaY21UtZ8vPaKzfr00p3vnkZu9Y@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras Shah</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 14, 2025 12:33:01 PM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<parth@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <parth@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 14 Jul 2025 19:33:01 +0000
+
+[1] CLIENT -> SERVER: To: parth@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <KDFJmggwi303UQ920gY73Z5WixW62lWUJxPBOeXX9w@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-14 19:33:01</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to parth@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 15, 2025 10:12:03 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<parth@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <parth@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Tue, 15 Jul 2025 17:12:02 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <parth@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <a0oqq4j84LUOGTmYgRVWJu3kbVDRC0qIWiIpOsdAVxU@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras Shah</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS2025</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Photography</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $2000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 15, 2025 10:12:07 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<parth@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <parth@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Tue, 15 Jul 2025 17:12:07 +0000
+
+[1] CLIENT -> SERVER: To: parth@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <sUjOWUI0wMvmjHbSl1TTS2T33KN0c9RHeWhWy0VVG0@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS2025</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Photography</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $2000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-15 17:12:07</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to parth@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 15, 2025 10:53:30 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Tue, 15 Jul 2025 17:53:30 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <86JZoE3BIsj0E4ctgfhj8Rfw1Nqf7zU0H8kojBbYbk@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Parth Shah</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Parth Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS 2025</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $1000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 15, 2025 10:53:35 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Tue, 15 Jul 2025 17:53:35 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <ewSgd46u5lLPIKVUUUzMhUFkO37XQVFDOV9Xw6biM@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Parth Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS 2025</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $1000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-15 17:53:35</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:10:14 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info.pts8@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info.pts8@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:10:13 +0000
+
+[1] CLIENT -> SERVER: To: info.pts8@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <sKo9r80T8WQO1bYvBALvyAuFv1s26xgI9u5lY3w8s@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin-bottom: 10px;'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $3000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info.pts8@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:10:19 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:10:18 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <GJmIGETePgh8l07qn06a42tJAzy0ds1eSXrNRYecoL0@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> MNPS</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $3000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-16 08:10:18</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:16:32 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info.pts8@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info.pts8@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:16:32 +0000
+
+[1] CLIENT -> SERVER: To: info.pts8@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <F4YHHawt8BDpdGxAe5esDnxCYqKAxD9C5x9ktWg4@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $2000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info.pts8@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:16:37 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:16:36 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <3Bl0iLesMQ3WqDIMW2Q9yvb5ya8x5vI0gMbiabcWw@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> $2000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-16 08:16:36</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:18:37 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info.pts8@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info.pts8@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:18:36 +0000
+
+[1] CLIENT -> SERVER: To: info.pts8@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <aP8PaqfZkkdq6VqKyn4iGzjVXx5gktvXa5nIM6Dd6Y@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #fff; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info.pts8@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:18:41 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:18:41 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <OZtJ9t0H9YQSIOBwMtcXVUjchpjznCoyHcVJ3lOXJw@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-16 08:18:41</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:23:09 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info.pts8@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info.pts8@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:23:09 +0000
+
+[1] CLIENT -> SERVER: To: info.pts8@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <Wo2ibgHs2eUdM6qwYrX1NjPtp5uCwHm26GFFDXz1c@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info.pts8@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 16, 2025 1:23:14 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Wed, 16 Jul 2025 08:23:14 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <qbisiFb3BbFIcT0sU9cNeWXLGZl9EzJJLE56wcqeHw@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> info.pts8@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-16 08:23:14</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 12:56:32 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 07:56:31 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <yNtr0eNnCWAuFTUVY6Wtnig85no8YfbPgllSxQPSMig@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Tls</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Tls</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 2000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 12:56:37 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 07:56:37 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <DrdjqT7HdnIXxqWydhE5fdkCKGBYJEI5aCCVOmPY@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Tls</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Tls</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 2000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-21 07:56:37</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 12:56:52 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<bhavoshti8991@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <bhavoshti8991@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 07:56:51 +0000
+
+[1] CLIENT -> SERVER: To: bhavoshti8991@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <A385OTbguvDqqY3dA8xjLpdry4qaKs4ikrf1c1puwPU@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>bhavin sureshbhai koshti koshti</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> bhavoshti8991@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to bhavoshti8991@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 12:56:57 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 07:56:56 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <Y20QJzrIPzllTdAOT6NXtGLXMRHTa3grUUEpYzz7iF8@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> bhavoshti8991@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> bhavin sureshbhai koshti koshti</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 1000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-21 07:56:56</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 1:53:49 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 08:53:48 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <AHEFjkvWsCzJ2w3nldXBhyJc1wQ5O91On95RgBhdGM@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras Shah</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 4000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 1:53:53 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 08:53:53 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <8ItVHJv1HEaP3v5VXBmmFC57tq2ItCfqukEMfea8QE@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 4000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-21 08:53:53</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 1:54:52 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<paras.shah0906@gmail.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <paras.shah0906@gmail.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 08:54:51 +0000
+
+[1] CLIENT -> SERVER: To: paras.shah0906@gmail.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Cc: Admin <info@photokrafft.com>
+
+[1] CLIENT -> SERVER: Subject: Registration Confirmation - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <0moJYexpSnHfqNQPboPM0612oRJsGNUxs4A0KUSY@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:   		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
+
+[1] CLIENT -> SERVER:                 <h1>Registration Confirmed!</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <p>Dear <strong>Paras Shah</strong>,</p>
+
+[1] CLIENT -> SERVER:                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
+
+[1] CLIENT -> SERVER:                 <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+
+[1] CLIENT -> SERVER:                 <h3>Your Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Event</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Wordshop</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 2000</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:                 
+
+[1] CLIENT -> SERVER:                 <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:  		<p>Thank you once again!</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
+
+[1] CLIENT -> SERVER:                 <p>Best regards,<br>Team Photokrafft</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated message. Please do not reply to this email.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to paras.shah0906@gmail.com
+[2] SERVER -> CLIENT: 220 mx.zohomail.com SMTP Server ready July 21, 2025 1:54:56 AM PDT
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-STARTTLS
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 Ready to start TLS.
+
+[1] CLIENT -> SERVER: EHLO srv560574
+
+[2] SERVER -> CLIENT: 250-mx.zohomail.com Hello srv560574 (srv560574.hstgr.cloud (212.38.94.249))
+250-AUTH LOGIN PLAIN
+250 SIZE 32505856
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 Authentication Successful
+
+[1] CLIENT -> SERVER: MAIL FROM:<noreply@photokrafftalbums.com>
+
+[2] SERVER -> CLIENT: 250 Sender <noreply@photokrafftalbums.com> OK
+
+[1] CLIENT -> SERVER: RCPT TO:<info@photokrafft.com>
+
+[2] SERVER -> CLIENT: 250 Recipient <info@photokrafft.com> OK
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+
+[1] CLIENT -> SERVER: Date: Mon, 21 Jul 2025 08:54:56 +0000
+
+[1] CLIENT -> SERVER: To: info@photokrafft.com
+
+[1] CLIENT -> SERVER: From: Photokrafft <noreply@photokrafftalbums.com>
+
+[1] CLIENT -> SERVER: Subject: New Registration - Photokrafft Event
+
+[1] CLIENT -> SERVER: Message-ID: <23BXZvQHXxpwt7nHOe1NOu6KF4hQHIQp87P59g6Qec@srv560574>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:     <html>
+
+[1] CLIENT -> SERVER:     <head>
+
+[1] CLIENT -> SERVER:         <style>
+
+[1] CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[1] CLIENT -> SERVER:             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[1] CLIENT -> SERVER:             .header { background: #333; color: white; padding: 20px; text-align: center; }
+
+[1] CLIENT -> SERVER:             .content { padding: 20px; background: #f9f9f9; }
+
+[1] CLIENT -> SERVER:             .footer { text-align: center; padding: 20px; color: #666; }
+
+[1] CLIENT -> SERVER:         </style>
+
+[1] CLIENT -> SERVER:     </head>
+
+[1] CLIENT -> SERVER:     <body>
+
+[1] CLIENT -> SERVER:         <div class='container'>
+
+[1] CLIENT -> SERVER:             <div class='header'>
+
+[1] CLIENT -> SERVER:                 <h1>New Registration Received</h1>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='content'>
+
+[1] CLIENT -> SERVER:                 <h3>Registration Details:</h3>
+
+[1] CLIENT -> SERVER:                 <ul>
+
+[1] CLIENT -> SERVER:                     <li><strong>Name:</strong> Paras Shah</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Email:</strong> paras.shah0906@gmail.com</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Event Name:</strong> Event</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Workshop Name:</strong> Wordshop</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Investment Amount:</strong> 2000</li>
+
+[1] CLIENT -> SERVER:                     <li><strong>Registration Date:</strong> 2025-07-21 08:54:56</li>
+
+[1] CLIENT -> SERVER:                 </ul>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:             <div class='footer'>
+
+[1] CLIENT -> SERVER:                 <p>This is an automated notification from the Photokrafft registration system.</p>
+
+[1] CLIENT -> SERVER:             </div>
+
+[1] CLIENT -> SERVER:         </div>
+
+[1] CLIENT -> SERVER:     </body>
+
+[1] CLIENT -> SERVER:     </html>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 Message received
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 mx.zohomail.com closing connection
+
+[SUCCESS] Email sent to info@photokrafft.com

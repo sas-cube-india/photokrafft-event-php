@@ -31,6 +31,7 @@ switch ($action) {
     case 'update':
         $id = $_POST['id'] ?? 0;
         $fullName = trim($_POST['full_name'] ?? '');
+        $phone = trim($_POST['phone'] ?? '');
         $email = trim($_POST['email'] ?? '');
         $eventName = trim($_POST['event_name'] ?? '');
         $workshopName = trim($_POST['workshop_name'] ?? '');
@@ -49,13 +50,14 @@ switch ($action) {
         $sql = "UPDATE form_submissions SET 
                 full_name = ?, 
                 email = ?, 
+                phone = ?,
                 event_name = ?, 
                 workshop_name = ?, 
                 investment = ? 
                 WHERE id = ?";
         
         $stmt = $pdo->prepare($sql);
-        $result = $stmt->execute([$fullName, $email, $eventName, $workshopName, $investment, $id]);
+        $result = $stmt->execute([$fullName, $email, $phone, $eventName, $workshopName, $investment, $id]);
         
         if ($result) {
             echo json_encode(['success' => true, 'message' => 'Submission updated successfully']);

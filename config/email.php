@@ -1,17 +1,17 @@
 <?php
 // Email configuration
 define('SMTP_HOST', 'smtp.zoho.com');
-define('SMTP_PORT', 465);
+define('SMTP_PORT', 587);
 define('SMTP_USERNAME', 'noreply@photokrafftalbums.com');
-define('SMTP_PASSWORD', 'PrintUrAlbums@747');
-define('ADMIN_EMAIL', 'parth@photokrafft.com');
+define('SMTP_PASSWORD', '$tallion@747');
+define('ADMIN_EMAIL', 'info@photokrafft.com');
 
 // Email sending function using PHPMailer
 function sendEmail($to, $subject, $body, $isHTML = true) {
     require_once 'vendor/autoload.php';
-    
+
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-    
+
     try {
         // Server settings
         $mail->isSMTP();
@@ -19,23 +19,36 @@ function sendEmail($to, $subject, $body, $isHTML = true) {
         $mail->SMTPAuth = true;
         $mail->Username = SMTP_USERNAME;
         $mail->Password = SMTP_PASSWORD;
-        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = SMTP_PORT;
-        
+        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS; // ✅ For port 587
+        $mail->Port = 587;
+        $mail->SMTPAutoTLS = true; // ✅ Optional; allows STARTTLS fallback
+
+        // Enable detailed SMTP debug logging
+        $mail->SMTPDebug = 2; // 0 = off, 2 = verbose
+        $mail->Debugoutput = function($str, $level) {
+            file_put_contents(__DIR__ . '/smtp-debug.log', "[" . $level . "] " . $str . "\n", FILE_APPEND);
+        };
+
         // Recipients
         $mail->setFrom(SMTP_USERNAME, 'Photokrafft');
         $mail->addAddress($to);
         $mail->addCC(ADMIN_EMAIL, 'Admin');
-        
+
         // Content
         $mail->isHTML($isHTML);
         $mail->Subject = $subject;
         $mail->Body = $body;
-        
+
         $mail->send();
+
+        // Optional success log
+        file_put_contents(__DIR__ . '/smtp-debug.log', "[SUCCESS] Email sent to {$to}\n", FILE_APPEND);
         return true;
     } catch (Exception $e) {
-        error_log("Email sending failed: " . $mail->ErrorInfo);
+        // Error log
+        $error = $mail->ErrorInfo;
+        error_log("Email sending failed: " . $error);
+        file_put_contents(__DIR__ . '/smtp-debug.log', "[ERROR] Email sending failed to {$to}: {$error}\n", FILE_APPEND);
         return false;
     }
 }
@@ -48,9 +61,9 @@ function sendCustomerConfirmation($customerEmail, $customerName, $formData) {
     <html>
     <head>
         <style>
-            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
             .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-            .header { background: #5bb5a2; color: white; padding: 20px; text-align: center; }
+            .header { background: #2e6f40; color: white; padding: 20px; text-align: center; }
             .content { padding: 20px; background: #f9f9f9; }
             .footer { text-align: center; padding: 20px; color: #666; }
         </style>
@@ -58,13 +71,14 @@ function sendCustomerConfirmation($customerEmail, $customerName, $formData) {
     <body>
         <div class='container'>
             <div class='header'>
+  		<img src='https://photokrafft.com/assets/img/logo.png' alt='Photokrafft Logo' style='max-width: 150px; margin: 0 auto 10px; display: block;'>
                 <h1>Registration Confirmed!</h1>
             </div>
             <div class='content'>
                 <p>Dear <strong>{$customerName}</strong>,</p>
                 <p>Thank you for registering with Photokrafft! Your registration has been successfully received.</p>
-                
-                <h3>Registration Details:</h3>
+                <p>We appreciate you visiting our booth at Maternity & Newborn Photographer's Summit 2025.</p>
+                <h3>Your Registration Details:</h3>
                 <ul>
                     <li><strong>Name:</strong> {$formData['full_name']}</li>
                     <li><strong>Email:</strong> {$formData['email']}</li>
@@ -73,7 +87,11 @@ function sendCustomerConfirmation($customerEmail, $customerName, $formData) {
                     <li><strong>Investment Amount:</strong> {$formData['investment']}</li>
                 </ul>
                 
-                <p>We will contact you soon with further details about the event.</p>
+                <p>Upon confirmation, your coupons will be available for access under your Photokrafft Account.</p>
+
+ 		<p>Thank you once again!</p>
+
+		<p>Looking forward to working on your first Lullabook / Bumpbook</p>
                 <p>Best regards,<br>Team Photokrafft</p>
             </div>
             <div class='footer'>
