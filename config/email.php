@@ -3,8 +3,8 @@
 define('SMTP_HOST', 'smtp.zoho.com');
 define('SMTP_PORT', 587);
 define('SMTP_USERNAME', 'noreply@photokrafftalbums.com');
-define('SMTP_PASSWORD', '$tallion@747');
-define('ADMIN_EMAIL', 'info@photokrafft.com');
+define('SMTP_PASSWORD', '$');
+define('ADMIN_EMAIL', '');
 
 // Email sending function using PHPMailer
 function sendEmail($to, $subject, $body, $isHTML = true) {
