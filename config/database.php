@@ -3,7 +3,7 @@
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', '@master_admin');
 define('DB_PASS', '');
-define('DB_NAME', 'photokrafft_forms');
+define('DB_NAME', '');
 
 // Create database connection
 function getDBConnection() {
